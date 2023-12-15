@@ -1,0 +1,141 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background: #333;
+    color: wheat;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#introduction, #reduce-reuse, #disposal{
+    margin-top: 60px;
+    height: 620px;
+    display: flex;
+    box-shadow: 2px 3px 60px;
+}
+#recycling{
+    margin-top: 60px;
+    height: 720px;
+    display: flex;
+    box-shadow: 2px 3px 60px;
+}
+#composting{
+    margin-top: 60px;
+    height: 750px;
+    display: flex;
+    box-shadow: 2px 3px 60px;
+}
+
+
+#head1{
+   text-align: center;
+   color: rgb(58, 38, 38);
+}
+#img1{
+    margin: 10px 10px 10px 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/7512791/pexels-photo-7512791.jpeg?auto=compress&cs=tinysrgb&w=600");
+    border: 3px solid black;
+}
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover{
+    box-shadow: 2px 3px 50px;
+}
+#introduction:hover, #reduce-reuse:hover, #recycling:hover, #composting:hover, #disposal:hover{
+    box-shadow: 2px 3px 50px;
+    color: rgb(18, 93, 86);
+}
+
+#img1Contant1{
+    height: 500px;
+    width: 999px;
+    margin-left: 40px;
+    margin-top:50px;
+    font-size: large;
+}
+
+#img2{
+    margin: 10px 10px 10px 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("https://th.bing.com/th/id/R.485b5476af386db266d625b59022715a?rik=pEcI2RB2K45lpg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2freduce-reuse-recycle-earth-png-reduce-reuse-recycle-logo-free-all-download-1563.png&ehk=cYo5wrp07j%2bHKI2aNe6MijmeQuKpnU3%2fzzLiI5n6hu8%3d&risl=&pid=ImgRaw&r=0");
+    border: 3px solid black;
+}
+
+#img3{
+    margin: 10px 10px 10px 10px;
+    height: 700px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("https://www.recyclingtoday.com/remote/aHR0cHM6Ly9jZG4uZ2llLm5ldC9maWxldXBsb2Fkcy9pbWFnZS8yMDIzLzAyLzE3L2Fkb2Jlc3RvY2tfMTcwMjgyNzk3LmpwZw.4vnksdxVS3I.jpg?w=948&h=533&mode=pad&anchor=middlecenter&scale=both&bgcolor=F0F1F2");
+    border: 3px solid black;
+}
+
+#img4{
+    margin: 10px 10px 10px 10px;
+    height: 710px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("https://ngorisefoundation.files.wordpress.com/2022/06/edited_compostingboy.jpg");
+    border: 3px solid black;
+}
+
+#img5{
+    margin: 10px 10px 10px 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("https://cdn.shopify.com/s/files/1/0555/8363/7660/files/Urban-plants-waste-disposal-in-India.jpg?v=1652712467");
+    border: 3px solid black;
+}
+div h2 {
+    flex: 2;
+    color: #333;
+}
+#tips{
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 2s;
+    border: 2px solid black;
+}
+#tips:hover{
+    background-color: rgba(240, 240, 146, 0.382);
+    border: 3px solid rgb(36, 137, 80);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
